@@ -17,5 +17,9 @@
 
   "block.covalent.japanese_maple_barrel": "Japanese_maple Barrel",
   "block.covalent.japanese_maple_bookcase": "Japanese_maple Bookcase",
-  "block.covalent.japanese_maple_crate": "Japanese_maple Crate"
+  "block.covalent.japanese_maple_crate": "Japanese_maple Crate",
+
+  "block.covalent.cherry_barrel": "Cherry Barrel",
+  "block.covalent.cherry_bookcase": "Cherry Bookcase",
+  "block.covalent.cherry_crate": "Cherry Crate"
 }
