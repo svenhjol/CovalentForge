@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+issueTrackerURL="http://github.com/svenhjol/Covalent/issues"
+displayURL="https://svenhjol.github.io/Charm/"
+license="https://github.com/svenhjol/Charm/blob/master/LICENSE"
+
+[[mods]]
+modId="covalent"
+version="${mod_version}"
+displayName="Covalent"
+description='''
+Extra integration for Charm.
+'''
+authors="Coranthes, svenhjol"
+
+[[dependencies.covalent]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.covalent]]
+    modId="charm"
+    mandatory=true
+    versionRange="[2.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.covalent]]
+    modId="quark"
+    mandatory=false
+    versionRange="[r2.4,)"
+    ordering="AFTER"
+    side="BOTH"
