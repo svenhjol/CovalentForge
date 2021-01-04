@@ -7,14 +7,14 @@
   ],
   "key": {
     "X": {
-      "item": "atmospheric:rosewood_planks"
+      "item": "biomesoplenty:magic_planks"
     },
     "#": {
-      "item": "NAMEPSACE:rosewood_bookshelf"
+      "item": "NAMEPSACE:magic_bookshelf"
     }
   },
   "result": {
-    "item": "covalent:rosewood_bookcase"
+    "item": "covalent:magic_bookcase"
   },
   "conditions": [
     {
@@ -26,7 +26,7 @@
         },
         {
           "type": "charm:module_enabled",
-          "module": "covalent:atmospheric"
+          "module": "covalent:biomesoplenty"
         }
       ]
     }

@@ -7,14 +7,14 @@
   ],
   "key": {
     "X": {
-      "item": "endergetic:poise_planks"
+      "item": "biomesoplenty:willow_planks"
     },
     "#": {
-      "item": "NAMEPSACE:poise_bookshelf"
+      "item": "NAMEPSACE:willow_bookshelf"
     }
   },
   "result": {
-    "item": "covalent:poise_bookcase"
+    "item": "covalent:willow_bookcase"
   },
   "conditions": [
     {
@@ -26,7 +26,7 @@
         },
         {
           "type": "charm:module_enabled",
-          "module": "covalent:endergetic"
+          "module": "covalent:biomesoplenty"
         }
       ]
     }

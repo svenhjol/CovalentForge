@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PSP", "P P", "PSP"
+    "IWI", "W W", "IWI"
   ],
   "key": {
-    "S": {"item": "atmospheric:rosewood_slab"},
-    "P": {"item": "atmospheric:rosewood_planks"}
+    "I": {"item": "minecraft:iron_ingot"},
+    "W": {"item": "biomesoplenty:magic_planks"}
   },
   "result": {
-    "item": "covalent:rosewood_barrel"
+    "item": "covalent:magic_crate"
   },
   "conditions": [
     {
@@ -16,11 +16,11 @@
       "values": [
         {
           "type": "charm:module_enabled",
-          "module": "charm:variant_barrels"
+          "module": "charm:crates"
         },
         {
           "type": "charm:module_enabled",
-          "module": "covalent:atmospheric"
+          "module": "covalent:biomesoplenty"
         }
       ]
     }
