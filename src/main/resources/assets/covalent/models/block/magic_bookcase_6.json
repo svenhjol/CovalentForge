@@ -1,0 +1,6 @@
+{
+  "parent": "covalent:block/magic_bookcase_0",
+  "textures": {
+    "side": "minecraft:block/magic_bookshelf"
+  }
+}

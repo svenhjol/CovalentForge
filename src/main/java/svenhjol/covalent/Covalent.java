@@ -5,7 +5,6 @@ import svenhjol.covalent.atmospheric.Atmospheric;
 import svenhjol.covalent.autumnity.Autumnity;
 import svenhjol.covalent.biomesoplenty.Biomesoplenty;
 import svenhjol.covalent.endergetic.Endergetic;
-import svenhjol.covalent.terrestria.Terrestria;
 
 import java.util.Arrays;
 
@@ -15,11 +14,11 @@ public class Covalent {
 
     public Covalent() {
         new CharmLoader(MOD_ID, Arrays.asList(
-            Atmospheric.class,
-            Autumnity.class,
             Biomesoplenty.class,
             Endergetic.class,
-            Terrestria.class
+            Atmospheric.class,
+            Autumnity.class
+
         ));
     }
 }

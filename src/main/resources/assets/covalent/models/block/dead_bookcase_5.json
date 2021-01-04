@@ -1,0 +1,6 @@
+{
+  "parent": "covalent:block/dead_bookcase_0",
+  "textures": {
+    "side": "minecraft:block/dead_bookshelf"
+  }
+}

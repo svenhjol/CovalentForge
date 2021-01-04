@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "minecraft:block/dead_planks",
+    "side": "covalent:block/dead_bookcase_0"
+  }
+}
